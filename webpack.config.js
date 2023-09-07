@@ -41,7 +41,7 @@ module.exports = {
 	},
 	plugins: [
 		new webpack.BannerPlugin({
-			br,
+			banner: br,
 		}),
 	],
 	optimization: {
