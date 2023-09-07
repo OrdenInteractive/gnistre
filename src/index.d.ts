@@ -11,6 +11,11 @@ type C_I_O = {
 };
 
 export type ClimpImageOptionProps = Readonly<C_I_O>;
+export type SwapElementProps<T> = {
+	array: T[];
+	firstIndex: number;
+	secondIndex: number;
+};
 export type ImageDataProps = Pick<
 	ClimpImageOptionProps,
 	'image' | 'w' | 'h' | 'onComplete' | 'onFail'
