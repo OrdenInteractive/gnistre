@@ -1,7 +1,7 @@
-# ![Gnistre](global/Logo.webp)
+# ![Gnistre](global/Logo.webp) 
+<p>Gnistre is a 2D Game Engine based on TypeScript for the web.</p>
 
-| [Docs](#)
-<p>Docs is unavailable for now will be added as soon as possible.</p>
+<p>Documents are unavailable for now will be added as soon as possible.</p>
 
 
 ## Performance & Compatibility
