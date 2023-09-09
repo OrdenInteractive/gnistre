@@ -2,7 +2,7 @@
 
 //https://gist.github.com/callumlocke/cc258a193839691f60dd
 
-import { DprScaleProps } from '..';
+import { DprScaleProps } from '../';
 
 export default function scaleCanvas(options: DprScaleProps) {
 	// assume the device pixel ratio is 1 if the browser doesn't specify it

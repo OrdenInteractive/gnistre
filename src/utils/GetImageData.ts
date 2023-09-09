@@ -1,4 +1,4 @@
-import { ImageDataProps } from '..';
+import { ImageDataProps } from '../';
 
 /**
  * Get image data from an HTMLImageElement.

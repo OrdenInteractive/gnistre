@@ -1,4 +1,4 @@
-import { SwapElementProps } from '..';
+import { SwapElementProps } from '../';
 
 /**
  * Swap two elements within an array.
@@ -22,9 +22,7 @@ import { SwapElementProps } from '..';
  * SwapElem(swapOptions);
  * console.log(arr); // Output: [1, 4, 3, 2]
  */
-export default function SwapElem<T>(
-	options: SwapElementProps<T>
-) {
+export default function SwapElem<T>(options: SwapElementProps<T>) {
 	options.array[options.firstIndex] = options.array.splice(
 		options.secondIndex,
 		1,

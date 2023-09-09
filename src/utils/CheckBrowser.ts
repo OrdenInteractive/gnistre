@@ -1,4 +1,4 @@
-import { BrowserDetect } from '..';
+import { BrowserDetect } from '../';
 
 /**
  * Detect the browser engine and return the result.

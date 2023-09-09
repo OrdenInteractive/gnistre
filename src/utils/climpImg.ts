@@ -1,4 +1,4 @@
-import { ClimpImageOptionProps } from '..';
+import { ClimpImageOptionProps } from '../';
 
 /**
  * ClimpImg - Create a cropped image from a given source image.
