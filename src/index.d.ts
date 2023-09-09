@@ -21,6 +21,19 @@ export type ImageDataProps = Pick<
 	'image' | 'w' | 'h' | 'onComplete' | 'onFail'
 >;
 
+export type DprScaleProps = {
+	canvas: HTMLCanvasElement;
+	context: CanvasRenderingContext2D | any;
+	w: number;
+	h: number;
+};
+
+export type ClampFunctionProps = {
+	x: number;
+	min: number;
+	max: number;
+};
+
 interface ChromeAPI {
 	runtime: {
 		id?: string;
